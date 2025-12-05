@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : "arm32"
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "stock_defconfig"
+  DEFCONFIG_NAME : "vendor/kona-perf_defconfig"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
@@ -33,7 +33,7 @@ env:
   KERNELSU_BRANCH : ""
 
   KERNELSU_AUTO_GET : "true" # if u want easy setting kernelsu, u can true.
-  KERNELSU_AUTO_FORK : "rsuntk" # magic, rsuntk , next and sukisu
+  KERNELSU_AUTO_FORK : "sukisu" # magic, rsuntk , next and sukisu
 
   SUSFS_ENABLE : true
   SUSFS_FIXED : true
